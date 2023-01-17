@@ -7,7 +7,7 @@ module.exports = merge(common, {
   devtool: "cheap-source-map",
   devServer: {
     static: {
-      directory: path.join(__dirname, "public"),
+      directory: path.join(__dirname, "/client/dist"),
     },
     historyApiFallback: true,
   },
